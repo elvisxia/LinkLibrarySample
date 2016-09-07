@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="LinkLibrarySample.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LinkLibrarySample"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:themeLibrary="using:MyThemeLibrary"
+    mc:Ignorable="d">
+
+    <Grid>
+        <StackPanel VerticalAlignment="Center">
+            <themeLibrary:MyUserControl Width="500" Height="500" />
+        </StackPanel>
+    </Grid>
+</Page>

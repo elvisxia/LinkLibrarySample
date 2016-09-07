@@ -7,9 +7,10 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     d:DesignHeight="300"
-    d:DesignWidth="400">
+    d:DesignWidth="400"
+    >
 
-    <Grid Background="{ThemeResource BgColorLight}">
+    <Grid Background="{ThemeResource BgColor}">
         
     </Grid>
 </UserControl>
